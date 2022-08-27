@@ -216,25 +216,25 @@ position: relative;
     color: #FCC508;
 }
 
-.minute1 {
+#minute1 {
     right: 26%;
 }
-.minute2 {
+#minute2 {
     right: 34%;
 }
 
-.hour1 {
+#hour1 {
     right: 44%;
 }
 
-.hour2 {
+#hour2 {
     right: 52%;
 }
 
-.day1 {
+#day1 {
     right: 63%;
 }
 
-.day2 {
+#day2 {
     right: 71%;
 }
