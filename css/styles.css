@@ -23,6 +23,7 @@ position: relative;
 }
 
 .separator {
+    width: 100%;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -126,5 +127,114 @@ position: relative;
 
 .cafe-logo-img {
     width: 20%;
+}
 
+.timer {
+    text-align: center;
+    position: absolute;
+     top: 50.5%;
+     height: 20%;
+    left:0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0) 100%);
+}
+
+.time-img {
+    margin: 7%;
+    text-align: center;
+    width: 53%;
+    margin-bottom: 0;
+}
+
+.timer span {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.minute-text {
+    right: 27%;
+}
+
+.hour-text {
+    right: 45%;
+}
+.day-text {
+    right: 65%;
+}
+
+.register-text  {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    color: #FCC508;
+    padding-top:2% ;
+}
+
+.footer-logos {
+    bottom: 3%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.lidoma {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    width: 25%;
+}
+
+.paxit {
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    width: 25%;
+}
+
+.counter {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+
+}
+
+.counter span {
+    position: absolute;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+    color: #FCC508;
+}
+
+.minute1 {
+    right: 26%;
+}
+.minute2 {
+    right: 34%;
+}
+
+.hour1 {
+    right: 44%;
+}
+
+.hour2 {
+    right: 52%;
+}
+
+.day1 {
+    right: 63%;
+}
+
+.day2 {
+    right: 71%;
 }
