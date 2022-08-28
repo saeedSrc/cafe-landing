@@ -12,6 +12,12 @@ body {
 
 }
 
+@media only screen and (max-width: 500px) {
+    .pattern-img {
+        height: 180vw;
+    }
+}
+
 .container {
     margin: 0;
     padding: 0;
@@ -247,9 +253,57 @@ position: relative;
     right: 71%;
 }
 
-
-@media only screen and (max-width: 500px) {
-    .pattern-img {
-  height: 180vw;
-    }
+.register {
+    width: 100%;
+    margin-top: 7%;
+    position: relative;
+    text-align: center;
 }
+
+.register span {
+    position: absolute;
+    top: 4.11%;
+    right: 42%;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.register-button {
+    width: 68%;
+}
+
+.register-deadline {
+    margin-top: 0%;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.reward-title {
+    margin-top: 11%;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6VW;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arrow {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.arrow-img {
+width: 10%;
+}
+
+
