@@ -1,6 +1,15 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Yekan Bakh'
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    /*src: url(Fonts/FA/Yekan_Bakh_EN_04_Regular_0.ttf);*/
+    /*src: url(Fonts/FA/Yekan_Bakh_EN_05_Medium_0.ttf);*/
+    src: url(Fonts/FA/Yekan_Bakh_EN_06_Bold_0.ttf);
+
 }
 
 .container {
@@ -10,8 +19,6 @@ body {
 
 .main-logo {
 position: relative;
-
-
 }
 
 .main-logo-img {
@@ -200,7 +207,7 @@ position: relative;
 
 .counter {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 0;
     right: 0;
 
@@ -220,7 +227,7 @@ position: relative;
     right: 26%;
 }
 #minute2 {
-    right: 34%;
+    right: 35%;
 }
 
 #hour1 {
@@ -228,7 +235,7 @@ position: relative;
 }
 
 #hour2 {
-    right: 52%;
+    right: 53.5%;
 }
 
 #day1 {
