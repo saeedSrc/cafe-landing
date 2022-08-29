@@ -333,7 +333,7 @@ width: 10%;
 
 }
 
-.first-page {
+.second-page {
     display: none;
 }
 
@@ -420,6 +420,7 @@ width: 10%;
     font-size: 5vw;
     text-align: right;
     color: #FFFFFF;
+    width: 90%;
 }
 
 .bullet-img {
