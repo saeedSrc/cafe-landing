@@ -11,61 +11,54 @@
 
 </head>
 <body>
-
-
     <div class="container">
       <div class="main-logo">
       <img src="css/assets/art-min.png" class="main-logo-img">
-          <div class="separator" style="position: absolute; bottom: 0">
+          <div class="separator">
               <img src="css/assets/line-min.png" class="separator-img">
           </div>
       </div>
-
-
       <div class="content">
-        <div class="pattern">
-          <img src="css/assets/pattern-min.png" class="pattern-img">
-            <img src="css/assets/reward-background-min.png" class="reward-img">
-          <div class="reward-text-box">
-            <p class="reward-text">بیش از ۱۰۰,۰۰۰,۰۰۰ تومان </p>
+            <div class="total-reward">
+          <img src="css/assets/reward-background-min.png" class="reward-img">
+        <div class="reward-text-box">
+            <p class="reward-text">بیش از <span style="font-weight: 1000; font-size: 10vw;"> ۱۰۰,۰۰۰,۰۰۰ </span> تومان </p>
             <p class="reward-text">جایزه نقدی</p>
+        </div>
           </div>
-      <div class="biggest-race">
+            <div class="biggest-race">
       <p class="biggest-race-text">  برزگترین مسابقه‌ی</p>
      <p class="biggest-race-text">   کال‌آف‌دیوتی ‌موبایل در ایران</p>
       </div>
-      <div class="cafe-logo">
+            <div class="cafe-logo">
         <img src="css/assets/bazaar-logo-min.png" class="cafe-logo-img">
-
+      </div>
+            <div class="separator">
+              <img src="css/assets/line-min.png" class="separator-img">
           </div>
-     <div class="timer">
-         <div class="separator">
-             <img src="css/assets/line-min.png" class="separator-img">
-         </div>
-         <div id="first-page" style="display: none">
+            <div class="timer">
+         <div class="first-page" >
+             <div class="counter">
+             <img src="css/assets/counter-min.png" class="time-img">
+             <span id="minute1">1</span>
+             <span id="minute2">1</span>
 
+             <span id="hour1">1</span>
+             <span id="hour2">1</span>
 
-         <img src="css/assets/counter-min.png" class="time-img">
-         <div class="counter">
-             <span id="minute1"></span>
-             <span id="minute2"></span>
-
-             <span id="hour1"></span>
-             <span id="hour2"></span>
-
-             <span id="day1"></span>
-             <span id="day2"></span>
+             <span id="day1">1</span>
+             <span id="day2">1</span>
          </div>
          <div>
-         <span class="minute-text" id="kosher">دقیقه</span>
-         <span class="hour-text">ساعت</span>
-         <span class="day-text">روز</span>
+         <span class="minute-text f-time">دقیقه</span>
+         <span class="hour-text f-time">ساعت</span>
+         <span class="day-text f-time">روز</span>
          </div>
          <div class="register-text">
              <p>تا شروع ثبت نام</p>
          </div>
          </div>
-         <div id="second-page">
+         <div class="second-page" >
              <div class="register">
                  <img src="css/assets/button-min.png" class="register-button">
                  <span>ثبت‌نام</span>
@@ -76,19 +69,101 @@
                 <div class="arrow">
                     <img src="css/assets/arrow-min.png" class="arrow-img">
                 </div>
-             </div>
+                 <div class="reward-details">
+                     <img src="css/assets/reward-background-2-min.png" alt="" class="reward-back">
+                     <div class="team-rewards-details">
+                         <p class="team-rewards-title">جوایز بخش تیمی:</p>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم اول:</span>
+                             <span class="team-reward-money">۴۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم دوم:</span>
+                             <span class="team-reward-money">۲۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم سوم:</span>
+                             <span class="team-reward-money">۱۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list">جایزه تیم‌های فینالیست:</span>
+                             <span class="team-reward-money">اینترنت رایگان</span>
+                         </div>
+                     </div>
+                     <div class="personal-rewards-details">
+                         <p class="personal-rewards-title">جوایز بخش انفرادی:</p>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم اول:</span>
+                             <span class="team-reward-money">۴۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم دوم:</span>
+                             <span class="team-reward-money">۲۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم سوم:</span>
+                             <span class="team-reward-money">۱۰ ملیون تومان</span>
+                         </div>
+                         <div>
+                             <span class="team-reward-list"> جایزه تیم‌های فینالیست:</span>
+                             <span class="team-reward-money">اینترنت رایگان</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="reward-title">توضیحات</div>
+                 <div class="arrow">
+                     <img src="css/assets/arrow-min.png" class="arrow-img">
+                 </div>
+                 <div class="description">
+                     <img src="css/assets/character-min.png" class="character-img">
+                     <div class="description-details">
+                         <p class="description-rules">
+                             <img src="css/assets/bullet-min.png" class="bullet-img">
+                             مسابقات در دو بخش فردی و تیمی (۵ نفره) برگزار خواهد شد. هر شخص می‌تواند در هر دو بخش شرکت کند.
+                         </p>
+                         <p class="description-rules">
+                             <img src="css/assets/bullet-min.png" class="bullet-img">
+                             این مسابقات برای راحتی شرکت‌کنندگان از سراسر ایران، از مرحله اول تا فینال به صورت آنلاین برگزار خواهد شد.
+                         </p>
+                         <p class="description-rules">
+                             <img src="css/assets/bullet-min.png" class="bullet-img">
+                             مسابقات از تاریخ ۲۰ شهریور شروع خواهد شد و  در تاریخ ۷ مهر (روز فینال) به پایان خواهد رسید.
+                         </p>
+                         <p class="description-rules">
+                             <img src="css/assets/bullet-min.png" class="bullet-img">
+                             جزییات مسابقات،‌ جدول زمانبندی مسابقات و سایر اطلاعات را می‌توانید در صفحه تورنمنت‌ها مشاهده کنید. پس از کلیک روی دکمه   <span style="color: #FCC508">"ثبت نام"</span> به صفحه‌ی تورنمنت‌ها منتقل خواهید شد.
+                         </p>
+                     </div>
+                 </div>
+                 <div class="register q-mg-top">
+                     <img src="css/assets/button-min.png" class="register-button">
+                     <span>ثبت‌نام</span>
+                     <p class="register-deadline">مهلت ثبت‌نام تا ۱۵ شهریور ماه</p>
+                 </div>
+                 <div class="cafe-logo">
+                     <img src="css/assets/bazaar-logo-min.png" class="cafe-logo-img">
+                 </div>
+                 <div class="separator">
+                     <img src="css/assets/line-min.png" class="separator-img">
+                 </div>
+                 <div class="gradient">
+                     <div class="footer-logos second-page">
+                         <img src="css/assets/lidoma-logo-min.png" class="lidoma">
+                         <img src="css/assets/paxit-logo-min.png" class="paxit">
+                     </div>
+                 </div>
 
-         </div>
      </div>
-      <div class="footer-logos">
-                <img src="css/assets/lidoma-logo-min.png" class="lidoma">
-                <img src="css/assets/paxit-logo-min.png" class="paxit">
       </div>
+      </div>
+      <div class="footer-logos first-page">
+            <img src="css/assets/lidoma-logo-min.png" class="lidoma">
+            <img src="css/assets/paxit-logo-min.png" class="paxit">
         </div>
-      </div>
-        <input type="date" id="dateEnd" style="display: none" value="2022-09-01" />
+      <div style="height: 1px"></div>
+      <input type="date" id="dateEnd" style="display: none" value="2022-09-01" />
     </div>
-
+    </div>
     <script src="js/scripts.js"></script>
   </body>
   </html>

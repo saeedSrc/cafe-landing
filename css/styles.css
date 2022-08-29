@@ -1,21 +1,37 @@
 body {
+    max-height: 200vh;
+    background-image: url("assets/pattern-min.png");
+    background-color: #171717;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: repeat-y;
     margin: 0;
     padding: 0;
     font-family: 'Yekan Bakh'
 }
 
+.q-mg-top {
+    margin-top: 15%;
+}
+
+
+p {
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
 @font-face {
     font-family: 'Yekan Bakh';
-    /*src: url(Fonts/FA/Yekan_Bakh_EN_04_Regular_0.ttf);*/
+    src: url(Fonts/FA/Yekan_Bakh_EN_04_Regular_0.ttf);
     /*src: url(Fonts/FA/Yekan_Bakh_EN_05_Medium_0.ttf);*/
-    src: url(Fonts/FA/Yekan_Bakh_EN_06_Bold_0.ttf);
+    /*src: url(Fonts/FA/Yekan_Bakh_EN_06_Bold_0.ttf);*/
 
 }
 
 @media only screen and (max-width: 500px) {
-    .pattern-img {
-        height: 180vw;
-    }
+    /*.pattern-img {*/
+    /*    height: 180vw;*/
+    /*}*/
 }
 
 .container {
@@ -59,6 +75,7 @@ position: relative;
     margin-bottom: -3%;
     width: 100%;
     background-color: #171717;
+  background-repeat: repeat-y;
 }
 
 .reward
@@ -68,22 +85,24 @@ position: relative;
     width: 100%;
 }
 
+.total-reward {
+    position: relative;
+}
+
 .reward-img {
-    top: 5%;
-     position: absolute;
+    position: relative;
     height: auto;
     width: 85%;
-    margin:auto;
-    display:block;
-    left: 8%;
+    margin: auto;
+    display: block;
+    margin-top: 6%;
 }
 
 .reward-text-box {
     position: absolute;
-    top : 4%;
+    top: 2%;
     left: 0;
     right: 0;
-
 }
 
 .reward-text{
@@ -96,7 +115,7 @@ position: relative;
     /* top: 718px; */
     font-family: 'Yekan Bakh';
     font-style: normal;
-    line-height: 4vw;
+    line-height: 2vw;
     font-weight: 700;
     color: #FCC508;
     text-shadow: 0px 0px 15px rgb(252 197 8 / 40%);
@@ -113,7 +132,7 @@ position: relative;
 }
 
 .biggest-race{
-    position: absolute;
+margin-top: 13%;
     top: 25%;
     left: 0;
     right: 0;
@@ -127,16 +146,12 @@ position: relative;
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.6);
-    line-height: 3vw;
+    line-height: 2vw;
 }
 
 .cafe-logo{
-    position: absolute;
-    top: 42%;
-    left: 0;
-    right: 0;
+    margin-top: 8%;
     text-align: center;
-    padding-bottom: 3%;
 }
 
 .cafe-logo-img {
@@ -145,11 +160,12 @@ position: relative;
 
 .timer {
     text-align: center;
-    position: absolute;
-     top: 52%;
-     height: 20%;
-    left:0;
-    right: 0;
+     /*height: 20%;*/
+    /*margin-bottom: 30%;*/
+    background: linear-gradient(180deg, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0) 100%);
+}
+
+.gradient {
     background: linear-gradient(180deg, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0) 100%);
 }
 
@@ -160,7 +176,7 @@ position: relative;
     margin-bottom: 0;
 }
 
-.timer span {
+.f-time {
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 700;
@@ -193,34 +209,33 @@ position: relative;
 
 .footer-logos {
     bottom: 3%;
-    position: absolute;
-    left: 0;
-    right: 0;
+   /*position: relative;*/
+   /* margin-top: 30%;*/
+    margin-bottom: 2%;
 }
 
 .lidoma {
-    position: absolute;
-    right: 3%;
-    bottom: 0;
+  margin: 3%;
+    float: right;
     width: 25%;
 }
 
 .paxit {
-    position: absolute;
-    left: 3%;
-    bottom: 0;
+
+  margin: 3%;
     width: 25%;
 }
 
 .counter {
-    position: absolute;
-    top: 28%;
-    left: 0;
-    right: 0;
+  text-align: center;
+    margin: auto;
+    width: 100%;
+    position: relative;
 
 }
 
 .counter span {
+    top: 40%;
     position: absolute;
     font-family: 'Yekan Bakh';
     font-style: normal;
@@ -255,14 +270,14 @@ position: relative;
 
 .register {
     width: 100%;
-    margin-top: 7%;
+    /*margin-top: 7%;*/
     position: relative;
     text-align: center;
 }
 
 .register span {
     position: absolute;
-    top: 4.11%;
+    top: 28%;
     right: 42%;
     font-family: 'Yekan Bakh';
     font-style: normal;
@@ -274,6 +289,7 @@ position: relative;
 
 .register-button {
     width: 68%;
+    margin-top: 7%;
 }
 
 .register-deadline {
@@ -287,7 +303,7 @@ position: relative;
 }
 
 .reward-title {
-    margin-top: 11%;
+    margin-top: 2%;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 500;
@@ -304,6 +320,111 @@ position: relative;
 
 .arrow-img {
 width: 10%;
+}
+
+.reward-details {
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.reward-back {
+    width: 90%;
+
+}
+
+.first-page {
+    display: none;
+}
+
+.team-rewards-title {
+   padding: 0;
+    margin: 0;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5vw;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.personal-rewards-title {
+    padding: 0;
+    margin: 0;
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5vw;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team-rewards-details{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    direction: rtl;
+}
+
+.team-reward-list{
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: right;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 45%;
+}
+
+.team-reward-money {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    color: #FCC508;
+    display: inline-block;
+    width: 30%;
+}
+
+
+.personal-rewards-details{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    direction: rtl;
+}
+
+.description {
+    width: 100%;
+    position: relative;
+}
+
+.character-img {
+   width: 100%;
+}
+
+.description-details {
+    direction: rtl;
+    position: absolute;
+    width: 90%;
+    top :2%
+}
+
+.description-rules {
+    font-family: 'Yekan Bakh';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.bullet-img {
+    width: 5%;
+    vertical-align: middle;
 }
 
 
