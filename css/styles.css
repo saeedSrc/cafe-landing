@@ -1,5 +1,5 @@
 body {
-    max-height: 200vh;
+    /*max-height: 200vh;*/
     background-image: url("assets/pattern-min.png");
     background-color: #171717;
     /*background-size: cover;*/
@@ -55,6 +55,7 @@ position: relative;
 
 .main-logo-img {
     height: auto;
+    /*height: 30vh;*/
     width: 100%;
     margin:auto;
     display:block;
@@ -156,7 +157,7 @@ position: relative;
 }
 
 .cafe-logo{
-    margin-top:11%;
+    margin-top:10%;
     text-align: center;
 }
 
@@ -224,8 +225,7 @@ position: relative;
 }
 
 .paxit {
-
-  margin: 3%;
+    margin: 3%;
     width: 25%;
 }
 
@@ -285,12 +285,12 @@ position: relative;
 
 .register span {
     position: absolute;
-    top: 28%;
+    top: 32%;
     right: 42%;
-    font-family: 'Yekan Bakh';
+    font-family: 'Yekan Bakh Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 5.5vw;
     text-align: center;
     color: #FFFFFF;
 }
@@ -305,17 +305,16 @@ position: relative;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 4.3vw;
     text-align: center;
     color: #FFFFFF;
 }
 
 .reward-title {
-    margin-top: 2%;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 500;
-    font-size: 6VW;
+    font-size: 5.5VW;
     text-align: center;
     color: #FFFFFF;
 }
@@ -327,32 +326,35 @@ position: relative;
 }
 
 .arrow-img {
-width: 10%;
+   width: 5%;
 }
 
 .reward-details {
+    text-align: center;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 5%;
     position: relative;
 }
 
 .reward-back {
-    width: 90%;
-
+    width: 89%;
 }
 
 .second-page {
     display: none;
 }
 
+.rewards {
+    margin-top: 10%;
+}
+
 .team-rewards-title {
-   padding: 0;
+    padding: 0;
     margin: 0;
-    font-family: 'Yekan Bakh';
+    font-family: 'Yekan Bakh Bold';
     font-style: normal;
     font-weight: 900;
-    font-size: 5vw;
-    /* identical to box height */
+    font-size: 4.3vw;
     text-align: center;
     color: #FFFFFF;
 }
@@ -372,15 +374,16 @@ width: 10%;
 .team-rewards-details{
     position: absolute;
     width: 100%;
-    top: 5%;
+    top: 6%;
     direction: rtl;
+    line-height: 7vw;
 }
 
 .team-reward-list{
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 4.3vw;
     text-align: right;
     color: #FFFFFF;
     display: inline-block;
@@ -391,7 +394,7 @@ width: 10%;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 4.3vw;
     color: #FCC508;
     display: inline-block;
     width: 30%;
@@ -403,6 +406,7 @@ width: 10%;
     width: 100%;
     top: 50%;
     direction: rtl;
+    line-height: 7vw;
 }
 
 .description {
@@ -425,7 +429,7 @@ width: 10%;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 4.1vw;
     text-align: right;
     color: #FFFFFF;
     width: 90%;
