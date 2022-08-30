@@ -374,15 +374,23 @@ p {
     width: 89%;
 }
 
-.first-page {
-    /*ssss*/
+.hidden {
     display: none;
 }
 
-/*.second-page {*/
+.block {
+    display: block !important;
+}
+
+/*.first-page {*/
 /*    !*ssss*!*/
 /*    display: none;*/
 /*}*/
+
+.second-page {
+    /*ssss*/
+    display: none;
+}
 
 .rewards {
     margin-top: 10%;

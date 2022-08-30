@@ -15,7 +15,6 @@ function traverse(el){
         traverse(el.childNodes[i]);
     }
 }
-
 function showCountdown() {
     var fecha = document.getElementById("dateEnd").value;
     if (fecha != '') {
@@ -23,6 +22,10 @@ function showCountdown() {
         var x = setInterval(function() {
             var now = new Date().getTime();
             var distance = countDownDate - now;
+            if (distance < 0) {
+                clearInterval(x);
+                loadSecondPage();
+            }
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -51,20 +54,20 @@ function showCountdown() {
 
             document.getElementById("minute1").innerHTML = arrayOfMinutes[1];
             document.getElementById("minute2").innerHTML = arrayOfMinutes[0];
-
-
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-
             traverse(document.body);
         }, 1000);
     }else{
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        loadSecondPage();
     }
 }
+function loadSecondPage() {
+    var elements = document.getElementsByClassName("first-page");
+    for (var i = 0, len = elements.length; i < len; i++) {
+        elements[i].className += ' hidden';
+    }
+     var elements1 =  document.getElementsByClassName("second-page");
+    for (var i = 0, len = elements1.length; i < len; i++) {
+        elements1[i].className += ' block';
+    }
 
-function GoTo(){
-    window.location = "https://cafebazaar.ir/app";
 }
