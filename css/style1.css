@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*max-height: 200vh;*/
     background-image: url("assets/pattern-min.png");
@@ -10,10 +14,18 @@ body {
     font-family: 'Yekan Bakh'
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .q-mg-top {
     margin-top: 15%;
 }
 
+.center {
+    text-align: center;
+}
 
 p {
     /*margin: 0;*/
@@ -298,6 +310,13 @@ p {
     text-align: center;
 }
 
+.register-button:hover {
+    transform: scale(1.1);
+    transition: .1s;
+    background: #FCC508;
+
+}
+
 .register span {
     position: absolute;
     top: 32%;
@@ -408,7 +427,7 @@ p {
     text-align: right;
     color: #FFFFFF;
     display: inline-block;
-    width: 45%;
+    width: 40%;
 }
 
 .team-reward-money {
@@ -419,6 +438,7 @@ p {
     color: #FCC508;
     display: inline-block;
     width: 30%;
+    text-align: left;
 }
 
 
@@ -431,7 +451,7 @@ p {
 }
 
 .description {
-    width: 100%;
+    width: 95%;
     position: relative;
 }
 
@@ -454,6 +474,8 @@ p {
     text-align: right;
     color: #FFFFFF;
     width: 90%;
+    padding-left: 1.5em;
+    text-indent:-1.5em;
 }
 
 .bullet-img {

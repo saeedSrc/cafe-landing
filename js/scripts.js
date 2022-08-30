@@ -65,10 +65,6 @@ function showCountdown() {
     }
 }
 
-document.getElementById('register').onclick = function(){
-    window.location = "https://cafebazaar.ir/app";
-}
-
 function GoTo(){
     window.location = "https://cafebazaar.ir/app";
 }
