@@ -44,7 +44,18 @@ p {
     /*}*/
 
     .main-logo-img {
-        height: 70vh;
+        height: 30vh !important;
+    }
+    .biggest-race {
+        margin-top: 8% !important;
+    }
+
+    .cafe-logo {
+        margin-top: 6% !important;
+    }
+
+    .miliun {
+        font-size: 7vw!important;
     }
 }
 
@@ -54,7 +65,7 @@ p {
 }
 
 .main-logo {
-position: relative;
+    position: relative;
 }
 
 .main-logo-img {
@@ -69,7 +80,7 @@ position: relative;
     font-family: 'Yekan Bakh Fat';
     vertical-align: bottom;
     font-weight: 1000;
-    font-size: 8vw;
+    font-size: 9vw;
     text-shadow: 0px 0px 25px rgba(252, 197, 8, 0.5);
 }
 
@@ -95,7 +106,7 @@ position: relative;
     margin-bottom: -3%;
     width: 100%;
     background-color: #171717;
-  background-repeat: repeat-y;
+    background-repeat: repeat-y;
 }
 
 .reward
@@ -125,7 +136,7 @@ position: relative;
 }
 
 .reward-text{
-  text-align: center;
+    text-align: center;
     font-size: 5.5vw;
     font-family: 'Yekan Bakh';
     font-style: normal;
@@ -171,7 +182,7 @@ position: relative;
 
 .timer {
     text-align: center;
-     /*height: 20%;*/
+    /*height: 20%;*/
     /*margin-bottom: 30%;*/
     background: linear-gradient(180deg, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0) 100%);
 }
@@ -223,7 +234,7 @@ position: relative;
 }
 
 .lidoma {
-  margin: 3%;
+    margin: 3%;
     float: right;
     width: 25%;
 }
@@ -234,7 +245,7 @@ position: relative;
 }
 
 .counter {
-  text-align: center;
+    text-align: center;
     margin: auto;
     width: 100%;
     position: relative;
@@ -330,7 +341,7 @@ position: relative;
 }
 
 .arrow-img {
-   width: 5%;
+    width: 5%;
 }
 
 .reward-details {
@@ -345,8 +356,14 @@ position: relative;
 }
 
 .first-page {
+    /*ssss*/
     display: none;
 }
+
+/*.second-page {*/
+/*    !*ssss*!*/
+/*    display: none;*/
+/*}*/
 
 .rewards {
     margin-top: 10%;
@@ -369,7 +386,7 @@ position: relative;
     font-family: 'Yekan Bakh';
     font-style: normal;
     font-weight: 900;
-    font-size: 5vw;
+    font-size: 4.3vw;
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
@@ -419,7 +436,7 @@ position: relative;
 }
 
 .character-img {
-   width: 100%;
+    width: 100%;
 }
 
 .description-details {
